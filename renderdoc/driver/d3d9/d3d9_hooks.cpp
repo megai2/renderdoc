@@ -42,7 +42,7 @@ class D3D9Hook : LibraryHook
 public:
   void RegisterHooks()
   {
-    RDCLOG("Registering D3D9 hooks");
+    /*RDCLOG("Registering D3D9 hooks");
 
     LibraryHooks::RegisterLibraryHook("d3d9.dll", NULL);
 
@@ -52,7 +52,7 @@ public:
     PERF_SetOptions.Register("d3d9.dll", "D3DPERF_SetOptions", PERF_SetOptions_hook);
     PERF_GetStatus.Register("d3d9.dll", "D3DPERF_GetStatus", PERF_GetStatus_hook);
 
-    Create9.Register("d3d9.dll", "Direct3DCreate9", Create9_hook);
+    Create9.Register("d3d9.dll", "Direct3DCreate9", Create9_hook);*/
   }
 
 private:
